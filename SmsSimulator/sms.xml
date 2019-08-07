@@ -1,0 +1,90 @@
+<!--
+  Copyright 2019 Google LLC
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>platform-application</key>
+        <true/>
+        <key>com.apple.private.security.container-required</key>
+        <false/>
+        <key>com.apple.system-task-ports</key>
+        <true/>
+        <key>task_for_pid-allow</key>
+        <true/>
+        <key>get-task-allow</key>
+        <true/>
+        <key>com.apple.CommCenter.Messages-send</key>
+        <true/>
+        <key>com.apple.coretelephony.Identity.get</key>
+        <true/>
+        <key>com.apple.coretelephony.SmsTestingMode.allow</key>
+        <true/>
+        <key>com.apple.basebandd.xpc.allow</key>
+        <true/>
+        <key>com.apple.coretelephony.VinylTest.allow</key>
+        <true/>
+        <key>com.apple.coretelephony.CTChannelBypass.allow</key>
+        <true/>
+        <key>com.apple.coretelephony.CTCarrierSettings.allow</key>
+        <true/>
+        <key>com.apple.private.alloy.thumper.settings</key>
+        <true/>
+        <key>com.apple.private.alloy.thumper.keys</key>
+        <true/>
+        <key>com.apple.private.alloy.ct.commcenter.p2w.settings</key>
+        <true/>
+        <key>com.apple.private.alloy.ct.commcenter.sim</key>
+        <true/>
+        <key>com.apple.private.telephony.facetime_launchnotification</key>
+        <true/>
+        <key>com.apple.private.telephony.facetime_audio_launchnotification</key>
+        <true/>
+        <key>com.apple.private.alloy.ct.baseband.p2p.notification</key>
+        <true/>
+        <key>com.apple.CoreTelephony.DataUsageInfo.allow</key>
+        <true/>
+        <key>com.apple.CoreTelephony.SignalStrength.allow</key>
+        <true/>
+        <key>com.apple.CoreTelephony.CellId.allow</key>
+        <true/>
+        <key>com.apple.coretelephony.SimAuthentication.allow</key>
+        <true/>
+        <key>com.apple.coretelephony.CTVoiceSupport.allow</key>
+        <true/>
+        <key>com.apple.coretelephony.SubscriberInfo.allow</key>
+        <true/>
+        <key>com.apple.telephony.cupolicy-rw-access</key>
+        <true/>
+        <key>com.apple.telephony.cupolicy-monitor-access</key>
+        <true/>
+        <key>com.apple.CommCenter.DeviceManagement-access</key>
+        <true/>
+        <key>com.apple.coretelephony.ContextAssertionHolder.allow</key>
+        <true/>
+        <key>com.apple.CommCenter.Preferences-write-access</key>
+        <true/>
+        <key>com.apple.coretelephony.Calls.allow</key>
+        <true/>
+        <key>com.apple.coretelephony.SimAuthentiction.allow</key>
+        <true/>
+        <key>com.apple.CommCenter.fine-grained</key>
+        <array>
+            <string>data-allowed-write</string>
+            <string>spi</string>
+        </array>
+    </dict>
+</plist>
